@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "description": "the type of election",
+      "examples": [
+        "median",
+        "range",
+        "ranked choice",
+        "multiple choice",
+        "dot",
+        "quadratic"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "useNumberRange": {
+      "type": "boolean"
+    },
+    "minValue": {
+      "type": "number"
+    },
+    "maxValue": {
+      "type": "number"
+    },
+    "decimals": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 77
+    },
+    "presets": {
+      "type": "array",
+      "description": "preset vote options"
+    },
+    "writeInsAllowed": {
+      "type": "boolean"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "description": "tags used to categorize elections"
+    },
+    "networks": {
+      "type": "array",
+      "description": "supported smart contract networks for casting votes",
+      "examples": [
+        "ethereum",
+        "gnosis chain",
+        "idchain"
+      ]
+    },
+    "maxVoters": {
+      "description": "maximum number of voters before election is closed"
+    },
+    "votesPerVoter": {
+      "type": "integer",
+      "description": "number of votes (credits, dots, etc.) for each voter to allocate"
+    },
+    "continuous": {
+      "type": "boolean",
+      "description": "Can voters change their votes before the voting period ends?"
+    }
+  },
+  "oneOf": [
+    {
+      "description": "number range vote parameters",
+      "anyOf": [
+        { "required": ["minValue"] },
+        { "required": ["maxValue"] },
+        { "required": ["decimals"] },
+        { "required": ["useNumberRange"] }
+      ]
+    },
+    {
+      "description": "multiple choice parameters",
+      "anyOf": [
+        { "required": ["presets"] },
+        { "required": ["writeInsAllowed"] }
+      ]
+    }
+  ]
+}
