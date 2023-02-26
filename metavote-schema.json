@@ -3,7 +3,8 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "description": "a friendly name for the election"
     },
     "type": {
       "type": "string",
@@ -18,21 +19,27 @@
       ]
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "a description of the election"
     },
     "useNumberRange": {
-      "type": "boolean"
+      "type": "boolean",
+      "description": "Does the election use a number range for vote values?"
     },
     "minValue": {
-      "type": "number"
+      "type": "number",
+      "description": "The minimum value (if any) for number range vote values."
     },
     "maxValue": {
-      "type": "number"
+      "type": "number",
+      "description": "The maximum value (if any) for number range vote values."
     },
     "decimals": {
-      "type": "number",
+      "type": "integer",
+      "description": "The number of decimals to use for number range vote values.",
       "minimum": 0,
-      "maximum": 77
+      "maximum": 77,
+      "default": 0
     },
     "presets": {
       "type": "array",
@@ -58,11 +65,12 @@
       ]
     },
     "maxVoters": {
-      "description": "maximum number of voters before election is closed"
+      "type": "integer",
+      "description": "The maximum number of voters before the election is closed. If undefined, there is no limit."
     },
     "votesPerVoter": {
       "type": "integer",
-      "description": "number of votes (credits, dots, etc.) for each voter to allocate"
+      "description": "The number of votes (credits, dots, etc.) for each voter to allocate."
     },
     "continuous": {
       "type": "boolean",
@@ -71,7 +79,7 @@
   },
   "oneOf": [
     {
-      "description": "number range vote parameters",
+      "description": "At least one is required if the election uses a number range.",
       "anyOf": [
         { "required": ["minValue"] },
         { "required": ["maxValue"] },
@@ -80,7 +88,7 @@
       ]
     },
     {
-      "description": "multiple choice parameters",
+      "description": "At least one is required if the election doesn't use a number range.",
       "anyOf": [
         { "required": ["presets"] },
         { "required": ["writeInsAllowed"] }
