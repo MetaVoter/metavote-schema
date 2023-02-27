@@ -43,7 +43,7 @@
     },
     "presets": {
       "type": "array",
-      "description": "preset vote options"
+      "description": "preset voting options"
     },
     "writeInsAllowed": {
       "type": "boolean"
@@ -75,6 +75,17 @@
     "continuous": {
       "type": "boolean",
       "description": "Can voters change their votes before the voting period ends?"
+    },
+    "verification": {
+      "oneOf": [
+        { "type": "string"},
+        { "type": "object"}
+      ],
+      "description": "The process for voter verification. It should be parseable by tabulator front-ends."
+    },
+    "endDate": {
+      "type": "string",
+      "description": "Date and time (if any) at which the election ends."
     }
   },
   "oneOf": [
