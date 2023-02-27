@@ -6,9 +6,9 @@
       "type": "string",
       "description": "a friendly name for the election"
     },
-    "type": {
+    "mechanism": {
       "type": "string",
-      "description": "the type of election",
+      "description": "the mechanism used by the election",
       "examples": [
         "median",
         "range",
