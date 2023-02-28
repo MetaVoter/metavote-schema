@@ -55,14 +55,28 @@
       "type": "array",
       "description": "tags used to categorize elections"
     },
-    "networks": {
+    "electionIds": {
       "type": "array",
-      "description": "supported smart contract networks for casting votes",
-      "examples": [
-        "ethereum",
-        "gnosis chain",
-        "idchain"
-      ]
+      "description": "electionIds created for this election and the networks they are on",
+      "items": {
+        "type": "object",
+        "properties": {
+          "network": {
+            "type": "string",
+            "examples": [
+              "ethereum",
+              "sepolia",
+              "gnosis"
+            ]
+          },
+          "electionId": {
+            "type": "string",
+            "description": "unique identifier (32 bytes) in hex format, starting with 0x",
+            "pattern": "^0[xX][0-9a-fA-F]{64}$"
+          }
+        },
+        "required": ["network","electionId"]
+      }
     },
     "maxVoters": {
       "type": "integer",
