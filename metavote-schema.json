@@ -98,8 +98,8 @@
       "description": "The process for voter verification. It should be parseable by tabulator front-ends."
     },
     "endDate": {
-      "type": "string",
-      "description": "Date and time (if any) at which the election ends."
+      "type": "number",
+      "description": "Milliseconds since epoch at which the election ends."
     }
   },
   "oneOf": [
