@@ -1,0 +1,16 @@
+{
+  "minValue": -100,
+  "maxValue": 100,
+  "name": "Multi network examples",
+  "description": "An example that uses two test networks (sepolia and goerli)",
+  "electionIds": [
+    {
+      "network": "sepolia",
+      "electionId": "0xd2095dc87b3df9e79d4869b46b5aded4170c02c20a78daeaaafd04666efc5fdb"
+    },
+    {
+      "network": "goerli",
+      "electionId": "0xd2095dc87b3df9e79d4869b46b5aded4170c02c20a78daeaaafd04666efc5fdb"
+    }
+  ]
+}

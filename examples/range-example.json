@@ -1,0 +1,6 @@
+{
+  "minValue": -400,
+  "maxValue": 400,
+  "name": "Range Example",
+  "description": "An example that uses min and max values for the range"
+}
