@@ -3,5 +3,5 @@
   "maxValue": 1000,
   "decimals": 2,
   "name": "Tx Fees",
-  "description": "What’s the highest average transaction cost (in USD) for a network to be usable for mass adoption?"
+  "description": "What's the highest average transaction cost (in USD) for a network to be usable for mass adoption?"
 }

@@ -2,7 +2,7 @@
   "minValue": -100,
   "maxValue": 100,
   "name": "State of the [decentralized] Union",
-  "description": "On a scale of -100 to 100, rate cryptocurrency’s impact on the world so far.",
+  "description": "On a scale of -100 to 100, rate cryptocurrency's impact on the world so far.",
   "electionIds": [
     {
       "network": "gnosis",
