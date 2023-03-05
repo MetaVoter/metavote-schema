@@ -1,0 +1,13 @@
+{
+  "minValue": 1,
+  "maxValue": 100,
+  "name": "Our Vision - Giveth",
+  "description": "On a scale of 1 to 100, how clear is the vision/purpose of the Giveth DAO?",
+  "electionIds": [
+    {
+      "network": "gnosis",
+      "electionId": "0x2453b064c4b538f81f287f554f1d511c33dd00263103d3aaf5b4831c0d8e0e01"
+    }
+  ],
+  "endDate": 1678053600000
+}

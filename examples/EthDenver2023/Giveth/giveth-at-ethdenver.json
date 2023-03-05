@@ -1,0 +1,13 @@
+{
+  "minValue": 1,
+  "maxValue": 100,
+  "name": "Giveth at ETHDenver",
+  "description": "How many Giveth DAO members are at ETHDenver 2023?",
+  "electionIds": [
+    {
+      "network": "gnosis",
+      "electionId": "0x72b927b43bb31a31ab9b0b440bc736e19924d9ac3a87933c54200312effe3951"
+    }
+  ],
+  "endDate": 1678053600000
+}

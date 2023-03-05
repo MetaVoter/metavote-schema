@@ -1,0 +1,13 @@
+{
+  "minValue": 0,
+  "maxValue": 8000000000,
+  "name": "Active Contributors - Giveth",
+  "description": "How many people are actively contributing at Giveth?",
+  "electionIds": [
+    {
+      "network": "gnosis",
+      "electionId": "0x8e1fa6e71ff1b6dd1d7feab2285f1406c02a462a24f2089f1bc882eabc9b886b"
+    }
+  ],
+  "endDate": 1678053600000
+}

@@ -1,0 +1,13 @@
+{
+  "minValue": 1,
+  "maxValue": 100,
+  "name": "Our Work - Giveth",
+  "description": "On a scale of 1 to 100, how effective has the Giveth DAO been at creating value towards its vision?",
+  "electionIds": [
+    {
+      "network": "gnosis",
+      "electionId": "0x5e45826af383761e5dbb6bdab61f5ea9f49d0c4cff6d83a0b4cba321f20c4170"
+    }
+  ],
+  "endDate": 1678053600000
+}
