@@ -1,0 +1,40 @@
+{
+  "minValue": -100,
+  "maxValue": 100,
+  "name": "State of the [decentralized] Union",
+  "description": "On a scale of -100 to 100, rate cryptocurrency’s impact on the world so far.",
+  "electionIds": [
+    {
+      "network": "gnosis",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "sepolia",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "goerli",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "fantom",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "polygon",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "optimism",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "arbitrum",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    },
+    {
+      "network": "base testnet",
+      "electionId": "0x4b970cad66e71bc1e7e34502d74c1d5d49c5a3d8541ac854e5b6fa1e2fff1b56"
+    }
+  ]
+}

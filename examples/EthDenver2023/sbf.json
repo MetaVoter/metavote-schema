@@ -1,0 +1,6 @@
+{
+  "minValue": 0,
+  "maxValue": 10000,
+  "name": "SBF",
+  "description": "How many years should SBF spend in prison?"
+}

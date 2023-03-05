@@ -1,0 +1,6 @@
+{
+  "minValue": 0,
+  "maxValue": 365,
+  "name": "Shanghai Upgrade",
+  "description": "How many days until the Shanghai upgrade goes live?"
+}

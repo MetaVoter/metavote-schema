@@ -1,0 +1,6 @@
+{
+  "minValue": 0,
+  "maxValue": 1000000,
+  "name": "The Flippening",
+  "description": "How many days until the market cap of $ETH is higher than the market cap of $BTC?"
+}
