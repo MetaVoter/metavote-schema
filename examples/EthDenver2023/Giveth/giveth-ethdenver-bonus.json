@@ -2,11 +2,11 @@
   "minValue": 0,
   "maxValue": 2100000000000,
   "name": "ETHDenver Bonus - Giveth",
-  "description": "What amount (in USD) of GIV should be paid as a bonus to contributors that helped at ETHDenver 2023?",
+  "description": "What amount (in USD) of GIV should be paid as a bonus to contributors that helped at ETHDenver 2023? Pick the total amount to be split among everyone.",
   "electionIds": [
     {
       "network": "gnosis",
-      "electionId": "0xe5e12e2a7dee22e9a9e969eb7b41f09be791f91cc7338e049e122b9968b7f75d"
+      "electionId": "0x657a88d176cb0835c2c18b4e9c0dfc4d78e69c8349dd0bb4838b136e0411354e"
     }
   ],
   "endDate": 1678053600000
